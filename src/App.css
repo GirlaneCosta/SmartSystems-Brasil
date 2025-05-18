@@ -1,0 +1,359 @@
+/* Estilos da nav */
+.navbar {
+  display: flex;
+  padding: 10x 20px;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  z-index: 10;
+  background:  linear-gradient(#ceffb3, #b5ec9b,#9cd884,#83c56c,#6ab154);
+}
+
+.menu-icon {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #003325;
+  z-index: 100;
+  position: relative;
+}
+
+.logo-container {
+  display: flex;
+  color: #003325;
+}
+
+img {
+  width: 50px;
+  margin-top: 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 25px;
+}
+
+.link {
+  text-decoration: none;
+   color: #000;
+   font-size: 17px;
+   border-bottom: 2px solid #003b2a;
+}
+
+.link:hover {
+  color: #6ab154;
+  border-bottom: 2px solid #6ab154;
+}
+
+/* Estilos do Inicio */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./assets/frente.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 97vh;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #e3f596;
+  font-size: 40px;
+}
+
+h3 {
+  color: #e3f596;
+}
+
+p {
+  margin-top: -0.7rem;
+  color: #e3f596;
+  font-size: 20px;
+}
+
+.botao-orcamento {
+  text-decoration: none;
+  border-radius: 20px;
+  background:  linear-gradient(#b2f78d, #a1e282,#7bc25e,#5c8d4a,#2c5021);
+  padding: 0.9rem;
+  font-weight: bold;
+  color: #003b2a;
+  margin-top: 1.2rem;
+}
+
+.botao-orcamento:hover {
+  background:  linear-gradient(#ceffb3, #b5ec9b,#9cd884,#83c56c,#6ab154);  
+}
+
+/* Estilos produtos - serviços - intalações */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(45deg, #5c8d4a, chocolate, #5c8d4a);
+  height: 33vh;
+}
+
+.produtos {
+  padding: 10px 10px;
+  background-color: #eeeded;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card {
+  background: #f9f9f9;
+  border-radius: 17px;
+  padding: 24px;
+  width: 270px;
+  box-shadow: 0 6px 18px rgba(0,0,0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0, 0.12);
+}
+
+.card .icon {
+  margin-bottom: 16px;
+}
+
+.card h4 {
+  margin-bottom: 17px;
+  font-size: 1.2rem;
+  color: #003325;
+}
+
+.card p {
+  color: #444;
+  font-size: 0.95rem;
+}
+.card svg {
+  font-size: 45px;
+  color: rgb(106, 180, 31);
+}
+
+.h3 {
+  color: #003325;
+  font-size: 27px;
+}
+
+.imagem-galeria {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  display: block;
+}
+
+/* Contato */
+
+.contato {
+  background-color: #f5f5f5;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato h4 {
+  font-size: 28px;
+  color: #003325;
+  margin-bottom: 30px;
+}
+
+.contato h5 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.card-contato {
+  margin: 0 auto;
+  border-radius: 17px;
+  background: #d3f0c4;
+  padding: 30px;
+  width: 500px;
+  box-shadow: 0 6px 18px rgba(0,0,0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-contato span {
+  font-weight: bold;
+  color: #003325;
+}
+
+.card-contato a {
+  color: #2c5021;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.card-contato a:hover {
+  color: #6ab154;
+  text-decoration: underline;
+}
+
+.card-contato svg {
+  color: #6ab154;
+  font-size: 22px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  background: #302f2f;
+  padding: 20px 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 40px;
+  text-align: left;
+}
+
+footer p {
+  padding-top: 5px;
+  color: #fff;
+  font-size: 17px;
+}
+
+footer svg {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: #9cd884;
+  transition: color 0.3s ease;
+}
+
+footer svg:hover {
+  color: #69cf41;
+}
+
+.direitos {
+  width: 100%;
+  text-align: center;
+  border-top: 2px solid #6b6767;
+  padding-top: 50px;
+  margin-top: -10px;
+}
+
+/* Botão subir */
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #4e8e36;
+  color: white;
+  border: none;
+  padding: 12px 14px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: #6ab154;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background:  linear-gradient(#ceffb3, #b5ec9b,#9cd884,#83c56c,#6ab154);
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    border-left: 2px solid #6ab154;
+    display: none;
+    border-radius: 7%;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .nav-links li {
+    margin-bottom: 15px;
+  }
+
+  .link {
+    border: none;
+    font-size: 18px;
+  }
+
+  .link:hover {
+    color: #6ab154;
+  }
+
+  .home h1 {
+    text-align: center;
+  }
+
+  .home p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .botao-orcamento {
+    width: 80%;
+    text-align: center;
+  }
+
+  .banner {
+    text-align: center;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-contato {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .card-contato a {
+  margin-left: -3px;
+  }
+
+  .contato h4 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
