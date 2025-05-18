@@ -1,7 +1,7 @@
 /* Estilos da nav */
 .navbar {
   display: flex;
-  padding: 10x 20px;
+  padding: 2px 20px;
   justify-content: space-around;
   align-items: center;
   position: relative;
@@ -23,21 +23,25 @@
   color: #003325;
 }
 
+.logo-container h2 {
+  font-size: 30px;
+}
+
 img {
-  width: 50px;
+  width: 70px;
   margin-top: 10px;
 }
 
 .nav-links {
   display: flex;
   list-style-type: none;
-  gap: 25px;
+  gap: 30px;
 }
 
 .link {
   text-decoration: none;
    color: #000;
-   font-size: 17px;
+   font-size: 22px;
    border-bottom: 2px solid #003b2a;
 }
 
@@ -61,27 +65,29 @@ img {
 
 h1 {
   color: #e3f596;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 h3 {
   color: #e3f596;
+  font-size: 30px;
 }
 
 p {
   margin-top: -0.7rem;
   color: #e3f596;
-  font-size: 20px;
+  font-size: 27px;
 }
 
 .botao-orcamento {
   text-decoration: none;
   border-radius: 20px;
   background:  linear-gradient(#b2f78d, #a1e282,#7bc25e,#5c8d4a,#2c5021);
-  padding: 0.9rem;
+  padding: 1.3rem;
   font-weight: bold;
   color: #003b2a;
   margin-top: 1.2rem;
+  font-size: 20px;
 }
 
 .botao-orcamento:hover {
@@ -97,10 +103,11 @@ p {
   justify-content: center;
   background: linear-gradient(45deg, #5c8d4a, chocolate, #5c8d4a);
   height: 33vh;
+  font-size: 25px;
 }
 
 .produtos {
-  padding: 10px 10px;
+  padding: 20px;
   background-color: #eeeded;
   text-align: center;
 }
@@ -109,13 +116,13 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 27px;
 }
 
 .card {
   background: #f9f9f9;
   border-radius: 17px;
-  padding: 24px;
+  padding: 47px;
   width: 270px;
   box-shadow: 0 6px 18px rgba(0,0,0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -127,18 +134,18 @@ p {
 }
 
 .card .icon {
-  margin-bottom: 16px;
+  margin-bottom: 19px;
 }
 
 .card h4 {
   margin-bottom: 17px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #003325;
 }
 
 .card p {
   color: #444;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 .card svg {
   font-size: 45px;
@@ -147,7 +154,7 @@ p {
 
 .h3 {
   color: #003325;
-  font-size: 27px;
+  font-size: 34px;
 }
 
 .imagem-galeria {
@@ -168,7 +175,7 @@ p {
 }
 
 .contato h4 {
-  font-size: 28px;
+  font-size: 32px;
   color: #003325;
   margin-bottom: 30px;
 }
@@ -177,7 +184,7 @@ p {
   display: flex;
   justify-content: center;
   gap: 10px;
-  font-size: 18px;
+  font-size: 22px;
   color: #333;
 }
 
@@ -185,7 +192,7 @@ p {
   margin: 0 auto;
   border-radius: 17px;
   background: #d3f0c4;
-  padding: 30px;
+  padding: 40px;
   width: 500px;
   box-shadow: 0 6px 18px rgba(0,0,0, 0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -227,12 +234,12 @@ footer {
 footer p {
   padding-top: 5px;
   color: #fff;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 footer svg {
   margin-right: 10px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #9cd884;
   transition: color 0.3s ease;
 }
@@ -315,6 +322,7 @@ footer svg:hover {
 
   .home h1 {
     text-align: center;
+    font-size: 2.7rem;
   }
 
   .home p {
@@ -323,12 +331,16 @@ footer svg:hover {
   }
 
   .botao-orcamento {
-    width: 80%;
     text-align: center;
   }
 
   .banner {
     text-align: center;
+    font-size: 20px;
+  }
+
+  .banner h3 {
+    font-size: 23px;
   }
 
   .cards {
