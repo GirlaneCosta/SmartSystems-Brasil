@@ -30,15 +30,25 @@ O projeto está estruturado da seguinte forma:
 
 SmartSystems-Brasil/
 ├── public/
+
 │   └── index.html
+
 ├── src/
+
 │   ├── assets/
+
 │   ├── components/
+
 │   ├── pages/
+
 │   └── main.jsx
+
 ├── .gitignore
+
 ├── package.json
+
 ├── vite.config.js
+
 └── README.md
 
 👩‍💻 Autora
