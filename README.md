@@ -25,33 +25,6 @@ Formulário de contato integrado
 
 Design moderno e intuitivo
 
-O projeto está estruturado da seguinte forma:
-
-
-SmartSystems-Brasil/
-
-├── public/
-
-│   └── index.html
-
-├── src/
-
-│   ├── assets/
-
-│   ├── components/
-
-│   ├── pages/
-
-│   └── main.jsx
-
-├── .gitignore
-
-├── package.json
-
-├── vite.config.js
-
-└── README.md
-
 👩‍💻 Autora
 Desenvolvido por Girlane de Oliveira Costa, desenvolvedora Front-End com experiência em criação de interfaces responsivas e centradas no usuário.
 girlaneoliveiracosta.com.br
