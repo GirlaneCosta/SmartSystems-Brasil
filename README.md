@@ -29,6 +29,7 @@ O projeto está estruturado da seguinte forma:
 
 
 SmartSystems-Brasil/
+
 ├── public/
 
 │   └── index.html
