@@ -2,6 +2,8 @@ Smart Systems
 
 Smart Systems Brasil é um site institucional desenvolvido para apresentar os serviços da empresa Smart Systems, com foco em soluções tecnológicas. O projeto inclui uma galeria de serviços, integração com canais de contato e um layout responsivo para proporcionar uma experiência de usuário otimizada em diferentes dispositivos.
 
+Link para o projeto: https://www.smartsystemsbrasil.online/
+
 🔧 Tecnologias Utilizadas
 
 HTML5
@@ -24,13 +26,6 @@ Galeria de serviços oferecidos pela empresa
 Formulário de contato integrado
 
 Design moderno e intuitivo
-
-👩‍💻 Autora
-Desenvolvido por Girlane de Oliveira Costa, desenvolvedora Front-End com experiência em criação de interfaces responsivas e centradas no usuário.
-girlaneoliveiracosta.com.br
-+1
-girlaneoliveiracosta.com.br
-+1
 
 Portfólio: girlaneoliveiracosta.com.br
 
