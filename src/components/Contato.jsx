@@ -44,7 +44,7 @@ const Contato = () => {
       </div>
       <a
         className="botao-orcamento"
-        href="https://api.whatsapp.com/send/?phone=5561993995630&text=Ol%C3%A1+gostaria+de+fazer+um+or%C3%A7amento+gratuito+agora%21&type=phone_number&app_absent=0"
+        href="https://wa.me/5561993995630?text=Ol%C3%A1,%20gostaria%20de%20pedir%20um%20or%C3%A7amento!"
         role="button"
         target="_blank"
         rel="noopener noreferrer"
