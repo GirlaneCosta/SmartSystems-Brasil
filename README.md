@@ -1,6 +1,6 @@
-Smart Systems 
+Smart CFTV 
 
-Smart Systems Brasil é um site institucional desenvolvido para apresentar os serviços da empresa Smart Systems, com foco em soluções tecnológicas. O projeto inclui uma galeria de serviços, integração com canais de contato e um layout responsivo para proporcionar uma experiência de usuário otimizada em diferentes dispositivos.
+Smart CFTV Brasil é um site institucional desenvolvido para apresentar os serviços da empresa Smart CFTV, com foco em soluções tecnológicas. O projeto inclui uma galeria de serviços, integração com canais de contato e um layout responsivo para proporcionar uma experiência de usuário otimizada em diferentes dispositivos.
 
 Link para o projeto: https://www.smartsystemsbrasil.online/
 

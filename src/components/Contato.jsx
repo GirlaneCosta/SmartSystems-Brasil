@@ -27,7 +27,7 @@ const Contato = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Smart Systems
+            Smart CFTV
           </a>
         </h5>
         <h5>

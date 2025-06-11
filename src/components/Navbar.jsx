@@ -16,7 +16,7 @@ const Navbar = () => {
           <a href="#inicio">
             <img src={Avatar} alt="Logo Smart systems" />
           </a>
-          <h2>Smart Systems</h2>
+          <h2>Smart CFTV</h2>
         </div>
 
         <div className="menu-icon" onClick={toggleMenu}>

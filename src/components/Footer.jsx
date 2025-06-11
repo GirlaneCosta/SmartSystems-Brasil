@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <h3>Smart Systems</h3>
+        <h3>Smart CFTV</h3>
         <p>
           Inovação para um futuro seguro <br /> e conectado com a tecnologia!
         </p>
@@ -33,7 +33,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="direitos">
-        <p>&copy; 2025 Smart Systems. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Smart CFTV. Todos os direitos reservados.</p>
       </div>
     </footer>
   );
